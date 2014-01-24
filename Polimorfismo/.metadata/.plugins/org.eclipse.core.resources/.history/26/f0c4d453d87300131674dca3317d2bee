@@ -1,0 +1,24 @@
+package tests;
+
+import javax.swing.JFrame;
+
+import utils.Cerchio;
+import utils.Pannello;
+import utils.Rettangolo;
+
+public class Tests01 {
+
+	public static void main(String[] args) {
+		Pannello pannello = new Pannello();
+		Cerchio cerchio = new Cerchio(100, 200, 200);
+		Rettangolo rettangolo = new Rettangolo(0, 0, 100, 100);
+		pannello.aggiungiDisegnabili(rettangolo);
+		pannello.aggiungiDisegnabili(cerchio);
+		JFrame frame = new JFrame("Disegnabili");
+		frame.setSize(600, 600);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().add(pannello);
+		frame.setVisible(true);
+
+	}
+}

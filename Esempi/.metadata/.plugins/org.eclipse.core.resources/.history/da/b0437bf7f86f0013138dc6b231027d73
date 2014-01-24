@@ -1,0 +1,9 @@
+/**
+ * Questo test server per verificare la coretta apertura del file di prova
+ * @author Giacomo
+ */
+package tests;
+
+public class Tests01 {
+
+}

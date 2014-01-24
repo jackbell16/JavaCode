@@ -1,0 +1,5 @@
+package utils;
+
+public class OperazioneMatematica {
+	public float calcola();
+}

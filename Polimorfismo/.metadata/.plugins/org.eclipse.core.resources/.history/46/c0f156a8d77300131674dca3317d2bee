@@ -1,0 +1,16 @@
+package tests;
+
+import utils.Cerchio;
+import utils.Pannello;
+
+public class Tests01 {
+
+	public static void main(String[] args) {
+		Pannello pannello = new Pannello();
+		Cerchio cerchio = new Cerchio(100, 200, 200);
+		pannello.aggiungiDisegnabili(cerchio);
+		pannello.setSize(600, 600);
+		pannello.setVisible(true);
+
+	}
+}

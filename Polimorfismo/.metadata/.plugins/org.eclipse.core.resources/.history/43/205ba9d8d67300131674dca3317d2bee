@@ -1,0 +1,11 @@
+package utils;
+
+import java.util.ArrayList;
+
+public class Pannello {
+	private ArrayList<Disegnabile> disegnabili = new ArrayList<>();
+	
+	public void aggiungiDisegnabili(Disegnabile disegnabile){
+			disegnabili.add(disegnabile);
+	}
+}

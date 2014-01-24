@@ -1,0 +1,6 @@
+package utils;
+
+public class Circle {
+	private int x,y,radius;
+	
+}

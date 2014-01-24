@@ -1,0 +1,8 @@
+package utils;
+
+public class Radice implements OperazioneMatematica {
+	@Override
+	public float calcola(float numero) {
+		return (float) Math.sqrt(numero);
+	}
+}

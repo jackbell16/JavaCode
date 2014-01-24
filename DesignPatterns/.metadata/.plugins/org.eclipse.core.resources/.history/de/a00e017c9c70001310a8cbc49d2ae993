@@ -1,0 +1,8 @@
+package utils;
+
+public class Utente {
+	public static void main(String[] args) {
+		ProxyOperazioneMatematica matematica = new ProxyOperazioneMatematica(0);
+		matematica.calcola(100);
+	}
+}

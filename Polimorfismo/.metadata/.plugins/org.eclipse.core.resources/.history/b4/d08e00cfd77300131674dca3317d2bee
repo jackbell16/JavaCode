@@ -1,0 +1,20 @@
+package tests;
+
+import javax.swing.JFrame;
+
+import utils.Cerchio;
+import utils.Pannello;
+
+public class Tests01 {
+
+	public static void main(String[] args) {
+		Pannello pannello = new Pannello();
+		Cerchio cerchio = new Cerchio(100, 200, 200);
+		pannello.aggiungiDisegnabili(cerchio);
+		JFrame frame = new JFrame("Disegnabili");
+		frame.setSize(600, 600);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().add(pannello);
+
+	}
+}

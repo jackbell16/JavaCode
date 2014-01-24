@@ -1,0 +1,10 @@
+package utils;
+
+public class Utente {
+	public static void main(String[] args) {
+		ProxyOperazioneMatematica matematica = new ProxyOperazioneMatematica(1);
+		System.out.println(matematica.calcola(10));
+		//matematica.setID(1);
+		matematica.calcola(100);
+	}
+}

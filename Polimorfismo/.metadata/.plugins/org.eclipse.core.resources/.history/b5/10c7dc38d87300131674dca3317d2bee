@@ -1,0 +1,14 @@
+package utils;
+
+import java.awt.Graphics;
+
+public class Rettangolo implements Disegnabile {
+	private int x,y;
+	private int width,height;
+	
+	@Override
+	public void disegna(Graphics graphics) {
+		graphics.drawRect(x, y, width, height);
+		
+	}
+}

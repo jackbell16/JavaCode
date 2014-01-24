@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.Frame"/>
+<fullyQualifiedTypeName name="utils.Cerchio"/>
+<fullyQualifiedTypeName name="utils.Pannello"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="utils.Rettangolo"/>
+<fullyQualifiedTypeName name="utils.DisegnabileColorato"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="utils.Disegnabile"/>
+<fullyQualifiedTypeName name="utils.Parabola"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="utils.OperazioneMatematica"/>
+<fullyQualifiedTypeName name="utils.Radice"/>
+<fullyQualifiedTypeName name="utils.ElevamentoQuadrato"/>
+<fullyQualifiedTypeName name="utils.ProxyOperazioneMatematica"/>
+<fullyQualifiedTypeName name="utils.Utente"/>
+<fullyQualifiedTypeName name="utils.Observer"/>
+<fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+<fullyQualifiedTypeName name="utils.Pannello"/>
+<fullyQualifiedTypeName name="utils.Subject"/>
+<fullyQualifiedTypeName name="utils.Controller"/>
+<fullyQualifiedTypeName name="javax.swing.JMenu"/>
+<fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
+<fullyQualifiedTypeName name="grafica.MenuUser"/>
+</qualifiedTypeNameHistroy>

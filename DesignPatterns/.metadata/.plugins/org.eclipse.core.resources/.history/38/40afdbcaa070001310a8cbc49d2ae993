@@ -1,0 +1,10 @@
+package utils;
+
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+public class Controller extends Subject {
+public setChanged(){
+	notify();
+	}
+}

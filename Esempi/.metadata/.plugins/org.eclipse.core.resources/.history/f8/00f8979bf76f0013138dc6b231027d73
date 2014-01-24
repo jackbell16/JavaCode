@@ -1,0 +1,46 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.xml.soap.Text;
+
+/**
+ * Questa classe mostra le varie librerie messe a disposizione in Java
+ * per la creazione di pannelli per gli utenti finali
+ * @author Giacomo
+ *
+ */
+
+public class PannelloUtente {
+
+	public static void main(String[] args) {
+		JMenuBar menuBar = new JMenuBar();
+		JMenu menu = new JMenu("Azioni");
+		JMenuItem item = new JMenuItem("Saluta Italiano");
+		JMenuItem item2 = new JMenuItem("Saluta Inglese");
+		item.add(menu);
+		item2.add(menu);
+		menuBar.add(menu);
+		JTextField field = new JTextField();
+		JTextArea area = JTextArea();
+		item.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				area.setText("Ciao "+text);
+				
+			}
+		});
+		JFrame frame = new JFrame("Pannello");
+		frame.setSize(500,500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+
+	}
+
+}

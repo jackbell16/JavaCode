@@ -1,0 +1,5 @@
+INDEX VERSION 1.126+/Users/Giacomo/Desktop/DesignPatterns/.metadata/.plugins/org.eclipse.jdt.core
+2854344170.index
+3877628882.index
+3531172851.index
+4197903699.index

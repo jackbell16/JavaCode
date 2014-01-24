@@ -1,0 +1,20 @@
+import javax.swing.JFrame;
+
+/**
+ * Questa classe mostra le varie librerie messe a disposizione in Java
+ * per la creazione di pannelli per gli utenti finali
+ * @author Giacomo
+ *
+ */
+
+public class PannelloUtente {
+
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("Pannello");
+		frame.setSize(500,500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package utils;
+
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+import javax.swing.JPanel;
+
+public class Pannello extends JPanel {
+	private ArrayList<Disegnabile> disegnabili = new ArrayList<>();
+	
+	public void aggiungiDisegnabili(Disegnabile disegnabile){
+			disegnabili.add(disegnabile);
+	}
+	@Override
+	protected void paintComponent(Graphics g) {
+		super.paintComponent(g);
+		for (int i = 0; i < disegnabili.size(); i++) {
+			disegnabili.get(i).disegna(g);
+		}
+	}
+}

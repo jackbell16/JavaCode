@@ -1,0 +1,16 @@
+/**
+ * Questa classe ha resposabilità di calcolare il quadrato di un 
+ * numero
+ * @author Giacomo
+ */
+package utils;
+
+public class Radice implements OperazioneMatematica {
+	/**
+	 * Questo metodo calcola la radice quadrata di un numero positivo
+	 */
+	@Override
+	public float calcola(float numero) {
+		return (float) Math.sqrt(numero);
+	}
+}

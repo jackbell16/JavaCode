@@ -1,0 +1,23 @@
+package utils;
+
+public class ProxyOperazioneMatematica implements OperazioneMatematica {
+	private Radice radice;
+	private ElevamentoQuadrato elevamentoQuadrato;
+	private static int radiceID = 0;
+	private static int ElevamentotoQuadratoID  = 1;
+	private int ID;
+	public ProxyOperazioneMatematica(int iD) {
+		super();
+		ID = iD;
+	}
+	@Override
+	public float calcola(float numero) {
+		float risultato = 0;
+		if(ID==radiceID){
+			risultato = radice.calcola(numero);
+		}else if(ID==ElevamentotoQuadratoID){
+		 risultato = elevamentoQuadrato.calcola(numero);
+		}
+		return risultato;
+	}	
+}

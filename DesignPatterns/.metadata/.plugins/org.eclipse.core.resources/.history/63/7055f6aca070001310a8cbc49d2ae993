@@ -1,0 +1,10 @@
+package utils;
+public class Client {
+	public static void main(String[] args) {
+       Controller controller = new Controller();
+        Observer observer1 = new Pannello();
+        controller.addObserver(observer1);
+        controller.mouseClicked(e);
+        
+    }
+}

@@ -1,0 +1,11 @@
+package utils;
+
+import java.awt.Graphics;
+
+public class Parabola implements Disegnabile {
+	@Override
+	public void disegna(Graphics graphics) {
+		graphics.drawArc(400, 400, 200, 100, 30, 30);
+		
+	}
+}

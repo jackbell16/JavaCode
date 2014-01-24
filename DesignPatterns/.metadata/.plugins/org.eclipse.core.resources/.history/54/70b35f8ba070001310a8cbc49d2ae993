@@ -1,0 +1,10 @@
+package utils;
+public class Client {
+	public static void main(String[] args) {
+       Pannello subject = new Pannello();
+        Observer observer1 = new Pannello;
+        subject.addObserver(observer1);
+        
+        
+    }
+}

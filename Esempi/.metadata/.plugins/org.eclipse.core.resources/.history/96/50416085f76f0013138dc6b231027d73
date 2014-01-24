@@ -1,0 +1,30 @@
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+/**
+ * Questa classe mostra le varie librerie messe a disposizione in Java
+ * per la creazione di pannelli per gli utenti finali
+ * @author Giacomo
+ *
+ */
+
+public class PannelloUtente {
+
+	public static void main(String[] args) {
+		JMenuBar menuBar = new JMenuBar();
+		JMenu menu = new JMenu("Azioni");
+		JMenuItem item = new JMenuItem("Saluta Italiano");
+		JMenuItem item2 = new JMenuItem("Saluta Inglese");
+		item.add(menu);
+		item2.add(menu);
+		menuBar.add(menu);
+		JFrame frame = new JFrame("Pannello");
+		frame.setSize(500,500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+
+	}
+
+}

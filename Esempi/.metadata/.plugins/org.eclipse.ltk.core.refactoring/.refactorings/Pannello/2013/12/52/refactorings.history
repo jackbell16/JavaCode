@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PannelloUtente.java&apos; to &apos;CaricamentoFilePannello/src/grafica&apos;&#x0A;- Original project: &apos;Pannello&apos;&#x0A;- Destination element: &apos;CaricamentoFilePannello/src/grafica&apos;&#x0A;- Original element: &apos;PannelloUtente.java&apos;" description="Copy compilation unit" destination="=CaricamentoFilePannello/src&lt;grafica" element1="/src&lt;{PannelloUtente.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1388260255282" units="1" version="1.0"/>
+</session>
